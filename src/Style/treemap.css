@@ -1,0 +1,35 @@
+.child-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(42, 42, 42);
+    background-color: rgb(241, 241, 241);
+    border: 2px solid rgb(0, 157, 169);
+    margin: 20px;
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    align-items: center;
+}
+
+.child-container:active {
+    transform: translateY(3px);
+}
+
+.child-container:hover {
+    cursor: pointer;
+}
+
+.pad {
+    padding-left: 100px;
+}
+
+img {
+    width: 20px;
+    height: auto;
+    margin-right: 20px;
+    margin-top: 1px;
+}
